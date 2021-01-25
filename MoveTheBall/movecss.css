@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+#gameArea{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(51,1fr);
+    grid-template-rows: repeat(51,1fr);
+    background: #4e6453;
+}
+#trump img{
+    height:10em;
+    width: 10em;
+    border-radius: 50%;
+}
+#whiteHouse img{
+    height:10em;
+    width:10em;
+    position: relative;
+    left:70em;
+    top: 28em;
+}

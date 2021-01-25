@@ -1,0 +1,78 @@
+/* General */
+button{
+    width:135px;
+    height:55px;
+    background: rgba(255,255,255,0.75);
+    outline: none;
+}
+button:hover{
+    background: #eb9534;
+}
+/* IDs */
+#calculatorbox{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    height:500px;
+    width:600px;
+    margin-left:2em;
+    margin-top:2em;
+    background: lightgrey;
+}
+#heading{
+    width:90%;
+    background:black;
+    height:4em;
+    margin-top:1em;
+}
+#heading h1{
+    color:white;
+    margin-left:6em;
+}
+#display{
+    height:8em;
+    width:90%;
+    background:whitesmoke;
+    margin-top:1em;
+    margin-bottom:2em;
+}
+#textpad{
+    width:inherit;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:flex-start;
+    margin-left:3.5em;
+}
+#num0{
+    width:45%;
+}
+#display {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    word-wrap: break-word;
+    word-break: break-all;
+    justify-content: space-around;
+}
+#display span{
+    position:relative;
+    left: 15em;
+    top:1em;
+}
+#previous-operand{
+    font-size: 1.5rem;
+    color: rgba(0,0,0,0.5);
+}
+#current-operand{
+    font-size: 2.5rem;
+    color: rgb(0,0,0);
+}
+/* Classes */
+.nums{
+    font-size:2rem;
+}
+.special{
+    background-color:#c70c1f;
+}
